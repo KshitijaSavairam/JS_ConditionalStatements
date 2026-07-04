@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+</head>
+<body>
+    
+    <h1>Hello from Conditional Statements in JavaScript</h1>
+
+    <script>
+
+        // age is greater than or equal to 18
+        const age = 15
+        console.log("Age is : " + age)
+        if(age >= 18){
+            console.log("You are eligible for voting!")
+        }
+        else{
+            console.log("You are not eligible to vote :(")
+        }
+
+        console.log("\n")
+
+        // grade system
+        const grade = 87
+        console.log("Grade :", grade);
+
+        if(grade >= 90){
+            console.log("Congratulations! You are passed with A+ Grade.")
+        }
+        else if(grade >= 75 && grade < 90){
+            console.log("Congratulations! You are passed with A Grade.")
+        }
+        else if(grade >= 50 && grade < 75){
+            console.log("Congratulations! You are passed with B Grade.")
+        }
+        else if(grade >= 35 && grade < 50){
+            console.log("Congratulations! You are passed with C Grade.")
+        }
+        else{
+            console.log("You are failed. Better luck next time :)")
+        }
+
+        console.log("\n")
+
+        // switch case
+        let day = 4
+        switch(day){
+            case 1 : 
+                    console.log("First day is Monday")
+                    break;
+            case 2 : 
+                    console.log("Second day is Tuesday")
+                    break;
+            case 3 : 
+                    console.log("Third day is Wednesday")
+                    break;
+            case 4 : 
+                    console.log("Fourth day is Thursday")
+                    break;
+            case 5 : 
+                    console.log("Fifth day is Friday")
+                    break;
+            case 6 : 
+                    console.log("Sixth day is Saturday")
+                    break;
+            case 7 : 
+                    console.log("Seventh day is Sunday")
+                    break;
+            default : 
+                    console.log("There is only seven days in a week")
+        }
+
+    </script>
+
+</body>
+</html>
